@@ -32,7 +32,7 @@
         document.getElementById("loginForm").addEventListener("submit", function(event) {
             event.preventDefault();
             let formData = new FormData(this);
-            fetch("monsay-website.byethost31.com", {
+            fetch("monsay-website.byethost31.com/login.php", {
                 method: "POST",
                 body: formData
             })
